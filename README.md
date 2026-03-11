@@ -1,11 +1,11 @@
 # AI Experts Assignment (JS/TS)
 ## Running Tests Locally
-npm install
-npm test
+- npm install
+- npm test
 
 ## Running Tests with Docker
-docker build -t ts-assignment .
-docker run --rm ts-assignment
+- docker build -t ts-assignment .
+- docker run --rm ts-assignment
 
 This assignment evaluates your ability to:
 
