@@ -15,7 +15,7 @@ if (
 )
 ```
 
-A plain object is **truthy**, so `!this.oauth2Token` is `false`. It also fails the `instanceof OAuth2Token` check, so the entire condition evaluates to `false` — the token is never refreshed. Then the subsequent `instanceof` guard also fails, so `asHeader()` is never called and no `Authorization` header is set.
+A plain object is **truthy**, so `!this.oauth2Token` is `false`. It also fails the `instanceof OAuth2Token` check, so the entire condition evaluates to `false`, the token is never refreshed. Then the subsequent `instanceof` guard also fails, so `asHeader()` is never called and no `Authorization` header is set.
 
 ## Why does your fix solve it?
 
